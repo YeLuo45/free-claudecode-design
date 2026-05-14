@@ -1,0 +1,113 @@
+/* Free Claude Code Design - Dark Purple-Blue Theme */
+
+:root {
+  --vp-c-bg: #0f0f23;
+  --vp-c-bg-alt: #1a1a2e;
+  --vp-c-bg-elv: #16162a;
+  --vp-c-text-1: #e0e0e0;
+  --vp-c-text-2: #aaa;
+  --vp-c-brand-1: #00d4ff;
+  --vp-c-brand-2: #00b8e6;
+  --vp-c-divider: #2a2a4a;
+  --vp-nav-bg-color: #1a1a2e;
+  --vp-sidebar-bg-color: #1a1a2e;
+  --vp-code-block-bg: #0d0d1a;
+}
+
+/* Hero Background */
+.VPHome {
+  background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+  padding: 2rem 0;
+}
+
+/* Title Gradient */
+.VPHero .name {
+  font-size: 3.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #00d4ff 0%, #764ba2 50%, #f093fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Tagline */
+.VPHero .tagline {
+  color: #c0c0c0;
+  font-size: 1.25rem;
+}
+
+/* Feature Cards */
+.VPFeature {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  transition: all 0.3s ease !important;
+}
+
+.VPFeature:hover {
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-color: rgba(0, 212, 255, 0.5) !important;
+  transform: translateY(-4px) !important;
+  box-shadow: 0 12px 40px rgba(0, 212, 255, 0.15) !important;
+}
+
+/* Navbar Glass Effect */
+.VPNav {
+  background: rgba(15, 12, 41, 0.9) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Buttons */
+.VPButton.medium.brand {
+  background: linear-gradient(135deg, #00d4ff 0%, #764ba2 100%);
+  border: none;
+}
+
+.VPButton.medium.brand:hover {
+  background: linear-gradient(135deg, #00e8ff 0%, #8a5db5 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 212, 255, 0.35);
+}
+
+/* Links */
+.VPNavBarTitle .title {
+  color: #00d4ff !important;
+  font-weight: 700;
+}
+
+/* Sidebar */
+.VPSidebar {
+  background: #1a1a2e !important;
+}
+
+/* Code Blocks */
+.vp-code-group .tabs {
+  background: #0d0d1a;
+}
+
+.vp-code-group .tab {
+  color: #aaa;
+}
+
+.vp-code-group .tab.active {
+  color: #00d4ff;
+  border-bottom-color: #00d4ff;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f23;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #302b63;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00d4ff;
+}

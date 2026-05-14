@@ -1,0 +1,13 @@
+{
+  "name": "free-claudecode-design-docs",
+  "version": "0.1.0",
+  "description": "Free Claude Code Anthropic Proxy Design Specification",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  }
+}
